@@ -118,7 +118,7 @@ const profile = {
   name: "Laize",
   role: "Instructor",
   hobbies: "Walking, Cycling",
-  img: "../images/face.jpg",
+  img: "./images/face.jpg",
 };
 btnProfile = document.querySelector("#btnProfile");
 btnProfile.addEventListener("click", displayProfile);
